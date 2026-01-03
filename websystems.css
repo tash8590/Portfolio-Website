@@ -1,0 +1,718 @@
+
+/* prevents padding & borders from increasing secretly */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* no scrolling horizontally teehee */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    color: #ffc331;
+}
+
+h1{
+    color:aliceblue;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+}
+
+p{
+    color:aliceblue;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    background-color:#1f3d69;
+    background-size: cover;
+    
+}
+
+h2{
+    color: aliceblue;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+    font-style: italic;
+}
+
+h3{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    font-size:1.45rem;
+    font-style: italic;
+}
+
+code{
+    background-color:#1f282e;
+    border:solid 1px;
+    border-color:azure;
+    border-radius: 3px;
+    line-height:5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+table, th, td{
+    margin: auto;
+    border: 3px solid;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: left;
+    color:aliceblue;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+tr:nth-child(odd) {background-color:#1f3455}
+
+th{
+    background-color: #08244c;
+}
+
+th, td{
+    padding:1rem;
+    max-width:8rem;
+}
+
+.navbar-rec{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background: #29374b;
+}
+
+.logo{
+    width: 65px;
+    height: auto;
+    padding: 20px 10px;
+}
+
+#div-left{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#abt-body-h1{
+    padding-left: clamp(1rem,5vw,6rem);
+    font-size: clamp(2.5rem,8vw,5.5rem);
+}
+
+#past-body-h1{
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 1.01rem;
+    padding-left: 0;
+    max-width: 40rem;
+    text-align: center;
+    
+}
+
+#future-body-h1{
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 1.01rem;
+    padding-left: 0;
+    max-width: 40rem;
+    text-align: center;
+    
+}
+
+#comments-h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 6.5rem;
+}
+
+.subHeading{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 2.58rem;
+}
+
+.page-divider{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+    height:8rem;
+    width: 4rem;
+
+    
+}
+
+.page-border{
+    width: 10%;
+    padding-left: 2%;
+    padding-right: 1.5rem;
+    
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.fixedImg{
+    width: 100px;
+    height: 550px;
+    padding-bottom: 10px;
+}
+
+.page-border2{
+    width: 10%;
+    padding-left: 1.5rem;
+    padding-right: 5%;
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+#title-h2{
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 2.01rem;
+    padding-left: 2rem;
+    max-width: 35rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.title-h2{
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 2.01rem;
+    max-width: 35rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.skills-img-python{
+   width: 10rem;
+   
+}
+
+.skills-img-godot{
+    width: 10rem;
+    
+ }
+
+ .skills-img-java{
+    width: 10rem;
+    
+ }
+
+ .skills-img-monggo{
+    width: 10rem;
+    
+ }
+
+ .skills-img-django{
+    width: 10rem;
+    
+ }
+
+ .skills-img-blender{
+    width: 10rem;
+    
+ }
+ 
+.picture{
+    max-width:400px;
+    height:auto;
+    position:static;
+    margin: 2rem auto;
+
+}
+
+.picture-div{
+    overflow:hidden;
+}
+
+.assets1{
+    margin:0;
+    padding: 1rem;
+    position:relative;
+    bottom:0;
+    height: 20rem;
+    width:20rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem clamp(1rem,5vw,4rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+   /* try grid*/
+@media (max-width:768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    
+        }
+}
+
+.container-past{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.container-future{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.container-comments{
+    display: flex;
+    justify-content: flex-start;
+    max-width:80%;
+    padding-left: 5%;
+    padding-right: 2%;
+    
+}
+
+
+
+.abt-body{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    padding-left: 6.01rem;
+    max-width: 45rem;
+    text-align: left;
+    flex-direction: column;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+
+}
+
+.body{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    max-width: 37rem;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.comments-body{
+    margin: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 90rem;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.20rem;
+    line-height: 1.65rem;
+    
+}
+
+
+.follow-me{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    max-width: 39rem;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.35rem;
+    justify-content:center;
+    text-align: center;
+   transition-duration: 155ms;
+
+}
+
+.about-me-pg{
+    color :aliceblue;
+    text-decoration: none;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+
+}
+
+.links{
+    transition-duration: 155ms;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.links:hover, .links:active{
+    color: #f1a71d;
+    text-decoration: none;
+    transform: scale(1.2,1.2);
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+}
+
+.linksIG{
+    transition-duration: 155ms;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 1.65rem;
+}
+
+.linksIG:hover, .linksIG:active{
+    color: #f1a71d;
+    text-decoration: none;
+    transform: scale(1.2,1.2);
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+}
+
+#div-right{
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 50px;
+}
+
+#nav-abt-me{
+    float: left;
+}
+
+.text-display{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.examplesImg{
+    display:block;
+    margin: auto;
+    width:55%;
+    border: 6px solid;
+    padding: 1px;
+    border-radius: 8px;
+    color:aliceblue;
+}
+
+.examplesImg1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin:0;
+    width:200%;
+    border: 6px solid;
+    padding: 1px;
+    border-radius: 8px;
+    color:aliceblue;
+}
+
+.examplesImg2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    z-index: 2;
+    margin: auto;
+    width:65%;
+    border: 6px solid;
+    padding: 1px;
+    border-radius: 8px;
+    color:aliceblue;
+}
+
+.examplesImg3{
+    display:block;
+    margin: auto;
+    width:100%;
+    border: 6px solid;
+    padding: 1px;
+    border-radius: 8px;
+    color:aliceblue;
+}
+
+.examplesImg4{
+    display:block;
+    margin: auto;
+    width:35%;
+    border: 6px solid;
+    padding: 1px;
+    border-radius: 8px;
+    color:aliceblue;
+}
+
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.imageGrid1 {
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img1:hover {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-1{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.skills-img2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img2:hover {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-2{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.skills-img3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img3:hover {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-3{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.skills-img4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img4:hover {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-4{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.skills-img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img5:hover {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-5{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.skills-img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.skills-img6:hover {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    opacity: 0;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.text-6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.txt-6{
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.icons {
+    padding-top: 2rem;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    transition-duration: 155ms;
+    z-index: 2;
+    margin: auto;
+}
+
+.icons:hover {
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
+
+.about-me-btn {
+    transition-duration: 155ms;
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: 6.01rem;
+    padding: 0.7rem 2.5rem;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    
+    color:aliceblue;
+    background-color:#0164c1;
+    
+    border: 15px;
+    border-radius: 999px;
+}
+
+.about-me-btn:hover, .about-me-btn:active {
+    color: #f1a71d;
+    font-weight: bold;
+    background-color: aliceblue;
+    transition-duration: 155ms;
+    transform: scale(1.15,1.15);
+}
