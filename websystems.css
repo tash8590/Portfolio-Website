@@ -21,7 +21,7 @@ span{
 }
 
 h1{
-    color:aliceblue;
+    color:#08244c;
     font-family: Century Gothic, Helvetica, sans-serif;
     font-size: clamp(2.5rem, 8vw, 5.5rem);
 }
@@ -135,6 +135,7 @@ th, td{
 }
 
 #future-body-h1{
+    color:#08244c;
     margin: 0;
     padding-top: 3.25rem;
     padding-left: 0;
