@@ -135,7 +135,6 @@ th, td{
 #future-body-h1{
     margin: 0;
     padding-top: 3.25rem;
-    padding-bottom: 1.01rem;
     padding-left: 0;
     max-width: 40rem;
     text-align: center;
@@ -253,6 +252,7 @@ th, td{
     max-width:390px;
     height:auto;
     position:static;
+
     margin: 2rem auto;
     border-radius: 20px;
 
@@ -345,7 +345,7 @@ th, td{
     font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.25rem;
     text-align: left;
-        padding: clamp(2.5rem, 2vw, 6rem);
+    padding: clamp(1.5rem, 2vw, 1rem);
 }
 
 .comments-body{
@@ -755,7 +755,7 @@ html::-webkit-scrollbar {
     justify-content: center;
 }
 
-img {
+.image {
     width: 300px;
     /* max-width: 100%; */
     height: auto;
@@ -763,7 +763,7 @@ img {
     transition: filter 0.2s ease;
 }
 
-img:hover {
+.image:hover {
     filter: brightness(80%);
 }
 
