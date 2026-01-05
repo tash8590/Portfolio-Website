@@ -38,6 +38,7 @@ body {
     background-color:#1f3d69;
     background-size: cover;
     
+    
 }
 
 h2{
@@ -160,6 +161,7 @@ th, td{
 .page-divider{
     display: flex;
     margin: 0;
+    padding-left:-10px;
     padding-top: 0;
     padding-bottom: 0; 
     height:8rem;
@@ -343,6 +345,7 @@ th, td{
     font-family: Century Gothic, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     text-align: left;
+        padding: clamp(2.5rem, 2vw, 6rem);
 }
 
 .comments-body{
