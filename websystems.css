@@ -21,7 +21,7 @@ span{
 
 h1{
     color:aliceblue;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: clamp(2.5rem, 8vw, 5.5rem);
 }
 
@@ -43,13 +43,13 @@ body {
 
 h2{
     color: aliceblue;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size:1.5rem;
     font-style: italic;
 }
 
 h3{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     font-size:1.45rem;
     font-style: italic;
@@ -72,7 +72,7 @@ table, th, td{
     border-radius: 4px;
     text-align: left;
     color:aliceblue;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
 }
 
 table{
@@ -146,7 +146,7 @@ th, td{
     color: aliceblue;
     display: flex;
     justify-content: center;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 6.5rem;
 }
 
@@ -154,7 +154,7 @@ th, td{
     color: aliceblue;
     display: flex;
     justify-content: center;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 2.58rem;
 }
 
@@ -278,7 +278,7 @@ th, td{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    padding: 5rem clamp(1rem,5vw,2rem);
+    padding: 2rem clamp(1rem,5vw,2rem);
     max-width: 1200px;
     margin: 0 auto;
     
@@ -331,7 +331,7 @@ th, td{
     max-width: 45rem;
     text-align: left;
     flex-direction: column;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     padding: clamp(2.5rem,2vw,6rem);
     font-size: clamp(1.5rem,5vw,1.5rem);
 
@@ -342,7 +342,7 @@ th, td{
     padding-top: 1rem;
     padding-bottom: 0;
     max-width: 37rem;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.25rem;
     text-align: left;
         padding: clamp(2.5rem, 2vw, 6rem);
@@ -353,7 +353,7 @@ th, td{
     padding-top: 1rem;
     padding-bottom: 1rem;
     max-width: 90rem;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.20rem;
     line-height: 1.65rem;
     
@@ -365,7 +365,7 @@ th, td{
     padding-top: 1rem;
     padding-bottom: 0;
     max-width: 39rem;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.35rem;
     justify-content:center;
     text-align: center;
@@ -376,13 +376,13 @@ th, td{
 .about-me-pg{
     color :aliceblue;
     text-decoration: none;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
 
 }
 
 .links{
     transition-duration: 155ms;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.25rem;
 }
 
@@ -390,12 +390,12 @@ th, td{
     color: #f1a71d;
     text-decoration: none;
     transform: scale(1.2,1.2);
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
 }
 
 .linksIG{
     transition-duration: 155ms;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     font-size: 1.65rem;
 }
 
@@ -403,7 +403,7 @@ th, td{
     color: #f1a71d;
     text-decoration: none;
     transform: scale(1.2,1.2);
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
 }
 
 #div-right{
@@ -530,7 +530,7 @@ th, td{
 }
 
 .txt-1{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -561,7 +561,7 @@ th, td{
 }
 
 .txt-2{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -592,7 +592,7 @@ th, td{
 }
 
 .txt-3{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -623,7 +623,7 @@ th, td{
 }
 
 .txt-4{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -654,7 +654,7 @@ th, td{
 }
 
 .txt-5{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -685,7 +685,7 @@ th, td{
 }
 
 .txt-6{
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     color:aliceblue;
     text-align: center;
     list-style-position: inside;
@@ -712,7 +712,7 @@ th, td{
     
     margin-left: 2rem;
     padding: 0.7rem 2.5rem;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Helvetica, sans-serif;
     
     color:aliceblue;
     background-color:#0164c1;
@@ -738,3 +738,46 @@ html {
 html::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Edge */
 }
+
+.card {
+    /* add shadows */
+    box-shadow: 4px -2px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: #0164c1   ;
+}
+
+.image-wrapper {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+
+}
+
+.works-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+.txt-container {
+  padding: 2px 16px;
+}
+
+/* img {
+     border-radius: 5px 5px 0 0;
+} */
