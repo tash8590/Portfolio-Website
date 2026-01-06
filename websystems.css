@@ -104,8 +104,10 @@ th, td{
     .hamburger {
         display: block;
     }
+    
+    
     #div-right {
-        display: none;
+        display: none !important;
         position: absolute;
         top: 80px;
         right: 0;
@@ -116,12 +118,12 @@ th, td{
         padding: 1rem 0;
     }
 
-    .nav-links.open {
-        display: flex;
-    }
+   
 
-    #div-right {
+    #div-right.open {
         padding: 1rem 0;
+        display: flex !important;
+        
         
     }
 }

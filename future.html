@@ -24,7 +24,7 @@
                         <h4 class="links">pottasuim</h4>
                     </a>
                 </div>
-                <div id="div-right" class="nav-links">
+                <div id="div-right">
                     <a href="index.html">
                         <!--&nbsp is the spacing-->
                         <h4 class="links">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</h4>
@@ -72,7 +72,7 @@
                 </p>
 
                 <div class="follow-me"> 
-                    <p>If you want to connect with me and see my other works, find me on
+                    <p class="text">If you want to connect with me and see my other works, find me on
                         <a class="linksIG" href="https://www.instagram.com/pottasuim/" target="_blank" rel="noopener noreferrer"> 
                             <b><i><u>instagram!</u></i></b></a>
                             <br>
@@ -99,7 +99,15 @@
            
         </div>
        
+        <!-- javascript -->
+        <script>
+            const hamburger = document.getElementById("hamburger");
+            const navLinks = document.getElementById("div-right");
 
+            hamburger.addEventListener("click", () => {
+                navLinks.classList.toggle("open");
+            });
+        </script>
 
     </body>
 </html>
