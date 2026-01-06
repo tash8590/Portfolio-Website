@@ -92,6 +92,40 @@ th, td{
     max-width:8rem;
 }
 
+.hamburger {
+    padding: 1rem;
+    display: none;
+    font-size: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    #div-right {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background: #08244c;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    #div-right {
+        padding: 1rem 0;
+        
+    }
+}
+
 .navbar-rec{
     display: flex;
     justify-content: space-between;
@@ -102,7 +136,7 @@ th, td{
     position:fixed;
     top:0;
     left:0;
-    z-index:0;
+    z-index:1;
 }
 
 .logo{
@@ -333,9 +367,8 @@ th, td{
 }
 
 .comments-body{
-    margin: 1px;
-    padding-left: 20rem;
-    padding-right:20rem;
+    max-width: 65ch;
+    margin: auto;
     padding-top: 2rem;
     /* max-width: ; */
     font-family: Century Gothic, Helvetica, sans-serif;

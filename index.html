@@ -24,7 +24,9 @@
                         <h4 class="links">pottasuim</h4>
                     </a>
                 </div>
-                <div id="div-right">
+
+                
+                <div id="div-right" class="nav-links">
                     <a href="index.html">
                         <!--&nbsp is the spacing-->
                         <h4 class="links">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</h4>
@@ -37,7 +39,8 @@
                     </a>
                     
                 </div>  
-                
+                <!-- HAMBURGER ICON -->
+                <div class="hamburger" id="hamburger">☰</div>
             </div>
             <div class="container">
                 <div>
@@ -71,7 +74,7 @@
                    
                     <p class="body"> I'm a Filipina! I'm an incoming 2nd year student at UTS, I love to draw, and code--but sometimes 
                     it does make me want to move to the countryside and farm my own crops.
-                    I love creating and making stuff look awesomesauce. ദ്ദി◝ ⩊ ◜.ᐟ </p>
+                    But I do love creating and making stuff look awesomesauce. ദ്ദി◝ ⩊ ◜.ᐟ </p>
                     
                     <br>
      
@@ -178,5 +181,13 @@
                 </div>
             </div>
         </footer> -->
+        <script>
+            const hamburger = document.getElementById("hamburger");
+            const navLinks = document.querySelector("div-right");
+
+            hamburger.addEventListener("click", () => {
+                navLinks.classList.toggle("open");
+            });
+        </script>
     </body>
 </html>
