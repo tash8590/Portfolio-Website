@@ -315,7 +315,7 @@ th, td{
 
 .body{
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 80px;
     padding-bottom: 0;
     max-width: 37rem;
     font-family: Century Gothic, Helvetica, sans-serif;
@@ -610,3 +610,41 @@ html::-webkit-scrollbar {
 /* img {
      border-radius: 5px 5px 0 0;
 } */
+
+.site-footer {
+    width: 100%;
+    background-color: #08244c;
+    color: aliceblue;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-links a {
+    margin-left: 1rem;
+    color: aliceblue;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #f1a71d;
+}
+
+.text-foot {
+    font-family: Century Gothic, Helvetica, sans-serif;
+    color:#eff3f5;
+    text-align: center;
+    list-style-position: inside;
+}
