@@ -233,10 +233,18 @@ th, td{
 
 }
 
+.pic {
+    max-width:390px;
+    height:auto;
+    position:static;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
 .picture-div{
     overflow:hidden;
-
-   margin: 2rem auto;
+    margin: 2rem auto;
 }
 
 .assets1{
